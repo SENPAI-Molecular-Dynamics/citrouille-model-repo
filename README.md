@@ -144,8 +144,8 @@ services:
     ports:
       - 9000:9000
     environment:
-      - MINIO_ROOT_USER=minio_access_key_root
-      - MINIO_ROOT_PASSWORD=minio_secret_key_root
+      - MINIO_ROOT_USER=minio_access_key
+      - MINIO_ROOT_PASSWORD=minio_secret_key
     volumes:
       - minio-data:/data
     command: server /data

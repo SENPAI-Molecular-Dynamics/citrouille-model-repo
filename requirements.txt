@@ -1,5 +1,6 @@
 flask
 minio
+pyyaml
 pymysql
 gunicorn
 flask_bcrypt
