@@ -1,0 +1,6 @@
+flask
+minio
+pymysql
+gunicorn
+flask_bcrypt
+flask_sqlalchemy
